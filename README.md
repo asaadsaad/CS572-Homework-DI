@@ -1,6 +1,6 @@
 ### CS572 - Dependency Injection
 ### Exercise
-1. Refactor the code from the last assignment and use the HTTP Client service. Practice working with the HTTP stream:
-   * Consume the Observable with `.subscribe()`
-   * Consume the Observable with `AsyncPipe`
-2. Create an `effect` that changes the page title to the recipe's title. Use the `Title` service to set the page. 
+1. Refactor the code from the last assignment: 
+   * Use the `HttpClient` and consume the observable with `.subscribe()` and `AsyncPipe`
+   * Use the `httpResponse` API
+2. Use the `Title` service within an `effect` to change the page title to the current recipe's title.
