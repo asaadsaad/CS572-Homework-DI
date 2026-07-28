@@ -1,6 +1,6 @@
 ### CS572 - Dependency Injection
 ### Exercise
-1. Refactor the code from the last assignment, making sure you handle `loading`, and `error` states: 
+1. Refactor the code from the last assignment, making sure you handle `loading`, and `error` states, and replace `fetch()` with: 
    * Use the `HttpClient` service and consume the observable in two ways:
        1. with `.subscribe()` 
        2. with `AsyncPipe` in the template
